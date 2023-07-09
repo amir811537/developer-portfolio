@@ -80,7 +80,9 @@ nav a {
   margin: 130px 0;
 }
 .seation-title {
+
   color: #181818;
+
   text-align: center;
 
   font-size: 35px;
@@ -161,4 +163,28 @@ footer{
   background: #FFF8F3;
   padding: 130px 200px ;
   margin-top: 100px;
+  gap: 100px
+  ;
+}
+.conract input[type="text"], .conract input[type="email"], textarea{
+  display: block;
+ margin-bottom: 25px;
+ padding: 18px 35px;
+ color: #757575;
+ border-radius: 5px;
+background:  #FFF;
+border: 0;
+width: 100%;
+
+}
+.social-links a{
+  margin-left: 25px;
+}
+.footer-colum{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+}
+.seation-title-2{
+  text-align: center;
 }
